@@ -32,8 +32,9 @@ build/
 *.exp
 *.log
 
-# Generated output (keep directory, ignore files)
-output/*.json
+# Generated output files (all output directories)
+output/
+**/output/
 
 # Visual Studio user settings (machine-specific)
 *.user
