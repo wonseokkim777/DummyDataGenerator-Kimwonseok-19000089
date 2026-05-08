@@ -1,0 +1,71 @@
+{
+  "templates": {
+    "customers": [
+      "삼성전자 DS부문",
+      "SK하이닉스",
+      "DB하이텍",
+      "키파운드리",
+      "매그나칩반도체",
+      "LX세미콘",
+      "네패스",
+      "하나마이크론",
+      "ASE Korea",
+      "앰코테크놀로지"
+    ],
+    "sample_types": [
+      "Wafer",
+      "Die",
+      "Package",
+      "Chip-on-Board",
+      "Bare Die",
+      "Wafer-Level Package"
+    ],
+    "process_steps": [
+      "Incoming Inspection",
+      "Gate Oxidation",
+      "Lithography",
+      "Etching",
+      "Ion Implant",
+      "CVD",
+      "CMP",
+      "Metal PVD",
+      "Anneal",
+      "Barrier Deposition",
+      "W Plug Fill",
+      "Final Electrical Test"
+    ],
+    "statuses": [
+      "Draft",
+      "Confirmed",
+      "InProcess",
+      "Completed",
+      "OnHold",
+      "Cancelled"
+    ],
+    "priorities": [
+      "Critical",
+      "High",
+      "Normal",
+      "Low"
+    ],
+    "production_lines": [
+      "Line-A",
+      "Line-B",
+      "Line-C",
+      "Line-D",
+      "Line-E"
+    ]
+  },
+  "ranges": {
+    "quantity_min":    1,
+    "quantity_max":    100,
+    "unit_price_min":  50000,
+    "unit_price_max":  5000000,
+    "thickness_min":   500,
+    "thickness_max":   900,
+    "defect_min":      0,
+    "defect_max":      50,
+    "yield_min":       60.0,
+    "yield_max":       99.9
+  }
+}
